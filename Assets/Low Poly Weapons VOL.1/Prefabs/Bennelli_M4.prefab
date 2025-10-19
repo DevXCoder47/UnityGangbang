@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 23904141403194016}
   - component: {fileID: 6523370580909710943}
   - component: {fileID: 4933828573808875313}
+  - component: {fileID: 4281825264589294618}
   m_Layer: 0
   m_Name: Bennelli_M4
   m_TagString: Weapon
@@ -35,6 +36,7 @@ Transform:
   m_Children:
   - {fileID: 4819501579468060}
   - {fileID: 4996469487512398}
+  - {fileID: 1814397525803445764}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &33898383997488124
@@ -127,6 +129,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Miscellaneous.WeaponIdleAnimation
   _rotationSpeed: 100
+--- !u!114 &4281825264589294618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1236257789494122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 745c75f1777a2da46b9d2b76b85cbe9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Weaponry.Shotgun
+  data: {fileID: 11400000, guid: 8f50de1efb1e15a4694f2d2c12b95ad6, type: 2}
+  muzzlePosition: {fileID: 0}
 --- !u!1 &1326079549577358
 GameObject:
   m_ObjectHideFlags: 0
@@ -305,3 +321,65 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1001 &324697689056113496
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4243371153570508}
+    m_Modifications:
+    - target: {fileID: 1274365976027254336, guid: 1bc58f31a9cd6184c86395aa71b40e0d, type: 3}
+      propertyPath: m_Name
+      value: Muzzle
+      objectReference: {fileID: 0}
+    - target: {fileID: 2139075940973075804, guid: 1bc58f31a9cd6184c86395aa71b40e0d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2139075940973075804, guid: 1bc58f31a9cd6184c86395aa71b40e0d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.0003
+      objectReference: {fileID: 0}
+    - target: {fileID: 2139075940973075804, guid: 1bc58f31a9cd6184c86395aa71b40e0d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.4775
+      objectReference: {fileID: 0}
+    - target: {fileID: 2139075940973075804, guid: 1bc58f31a9cd6184c86395aa71b40e0d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2139075940973075804, guid: 1bc58f31a9cd6184c86395aa71b40e0d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2139075940973075804, guid: 1bc58f31a9cd6184c86395aa71b40e0d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2139075940973075804, guid: 1bc58f31a9cd6184c86395aa71b40e0d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2139075940973075804, guid: 1bc58f31a9cd6184c86395aa71b40e0d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2139075940973075804, guid: 1bc58f31a9cd6184c86395aa71b40e0d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2139075940973075804, guid: 1bc58f31a9cd6184c86395aa71b40e0d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bc58f31a9cd6184c86395aa71b40e0d, type: 3}
+--- !u!4 &1814397525803445764 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2139075940973075804, guid: 1bc58f31a9cd6184c86395aa71b40e0d, type: 3}
+  m_PrefabInstance: {fileID: 324697689056113496}
+  m_PrefabAsset: {fileID: 0}

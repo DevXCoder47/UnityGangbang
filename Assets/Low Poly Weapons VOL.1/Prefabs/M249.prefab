@@ -102,6 +102,7 @@ GameObject:
   - component: {fileID: 23025737108156134}
   - component: {fileID: -2344643774708436588}
   - component: {fileID: 6911929993059884929}
+  - component: {fileID: 2065811276317024076}
   m_Layer: 0
   m_Name: M249
   m_TagString: Weapon
@@ -126,6 +127,7 @@ Transform:
   - {fileID: 4211039482249024}
   - {fileID: 4427154760744368}
   - {fileID: 4271122294997020}
+  - {fileID: 1838956121222793226}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &33990794486070434
@@ -218,6 +220,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Miscellaneous.WeaponIdleAnimation
   _rotationSpeed: 100
+--- !u!114 &2065811276317024076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261748888023320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f6f5307cc1fbf34786e64875f9d79c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MachineGun
+  data: {fileID: 11400000, guid: d0ff1a44e15e8a744a3705facd473806, type: 2}
+  muzzlePosition: {fileID: 0}
 --- !u!1 &1564110021164438
 GameObject:
   m_ObjectHideFlags: 0
@@ -485,3 +501,65 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1001 &60780277357607698
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4251306428143386}
+    m_Modifications:
+    - target: {fileID: 1824705028476908312, guid: 5bb689132156f024797c349daa378f3d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.023
+      objectReference: {fileID: 0}
+    - target: {fileID: 1824705028476908312, guid: 5bb689132156f024797c349daa378f3d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.061
+      objectReference: {fileID: 0}
+    - target: {fileID: 1824705028476908312, guid: 5bb689132156f024797c349daa378f3d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.4206
+      objectReference: {fileID: 0}
+    - target: {fileID: 1824705028476908312, guid: 5bb689132156f024797c349daa378f3d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1824705028476908312, guid: 5bb689132156f024797c349daa378f3d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1824705028476908312, guid: 5bb689132156f024797c349daa378f3d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1824705028476908312, guid: 5bb689132156f024797c349daa378f3d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1824705028476908312, guid: 5bb689132156f024797c349daa378f3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1824705028476908312, guid: 5bb689132156f024797c349daa378f3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 1824705028476908312, guid: 5bb689132156f024797c349daa378f3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7821361754216722398, guid: 5bb689132156f024797c349daa378f3d, type: 3}
+      propertyPath: m_Name
+      value: Muzzle
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5bb689132156f024797c349daa378f3d, type: 3}
+--- !u!4 &1838956121222793226 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1824705028476908312, guid: 5bb689132156f024797c349daa378f3d, type: 3}
+  m_PrefabInstance: {fileID: 60780277357607698}
+  m_PrefabAsset: {fileID: 0}
