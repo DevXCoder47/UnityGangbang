@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4747097732552298}
   - component: {fileID: 33139384063206116}
   - component: {fileID: 23014844045418386}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rocket
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102,7 +102,7 @@ GameObject:
   - component: {fileID: 23100547221564144}
   - component: {fileID: -764407569858041737}
   - component: {fileID: 226061724187998798}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: RPG7
   m_TagString: Weapon
   m_Icon: {fileID: 0}
@@ -227,7 +227,7 @@ GameObject:
   - component: {fileID: 4525525179064062}
   - component: {fileID: 33625029223417904}
   - component: {fileID: 23391533617881980}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}

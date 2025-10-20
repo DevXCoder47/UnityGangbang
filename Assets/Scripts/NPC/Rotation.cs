@@ -4,10 +4,12 @@ namespace NPC
 {
     public class Rotation : MonoBehaviour
     {
-        [SerializeField] private GameObject target;
+        
         [SerializeField] private float rotationSpeed;
 
-        public GameObject Target
+        private Transform target;
+
+        public Transform Target
         {
             get => target;
             set => target = value;
@@ -18,7 +20,7 @@ namespace NPC
             if (target == null) return;
 
             // Вектор до цели (с учётом высоты)
-            Vector3 direction = target.transform.position - transform.position;
+            Vector3 direction = target.position - transform.position;
 
             if (direction != Vector3.zero)
             {

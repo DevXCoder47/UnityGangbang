@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4053049694707180}
   - component: {fileID: 33453223075324624}
   - component: {fileID: 23955289606062604}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102,7 +102,7 @@ GameObject:
   - component: {fileID: 23702528113249380}
   - component: {fileID: -4681920953371684492}
   - component: {fileID: -7738876181220996115}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Uzi
   m_TagString: Weapon
   m_Icon: {fileID: 0}
@@ -229,7 +229,7 @@ GameObject:
   - component: {fileID: 4647490109771344}
   - component: {fileID: 33854016969116716}
   - component: {fileID: 23313843289556852}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -319,7 +319,7 @@ GameObject:
   - component: {fileID: 4005219759321252}
   - component: {fileID: 33545146177185778}
   - component: {fileID: 23185418572402374}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Magazin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -408,7 +408,7 @@ GameObject:
   - component: {fileID: 4172847797108098}
   - component: {fileID: 33463821814610566}
   - component: {fileID: 23006419205827756}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bolt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -497,7 +497,7 @@ GameObject:
   - component: {fileID: 4247028893976260}
   - component: {fileID: 33627599256676078}
   - component: {fileID: 23251919665667156}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stock_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}

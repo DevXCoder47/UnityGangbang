@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4271122294997020}
   - component: {fileID: 33969966666000196}
   - component: {fileID: 23973502960805256}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -103,7 +103,7 @@ GameObject:
   - component: {fileID: -2344643774708436588}
   - component: {fileID: 6911929993059884929}
   - component: {fileID: 2065811276317024076}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: M249
   m_TagString: Weapon
   m_Icon: {fileID: 0}
@@ -245,7 +245,7 @@ GameObject:
   - component: {fileID: 4211039482249024}
   - component: {fileID: 33543448834326324}
   - component: {fileID: 23601845274669596}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Magazin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -334,7 +334,7 @@ GameObject:
   - component: {fileID: 4220910401126438}
   - component: {fileID: 33784703545727648}
   - component: {fileID: 23948615344437080}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bolt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -423,7 +423,7 @@ GameObject:
   - component: {fileID: 4427154760744368}
   - component: {fileID: 33324123896295442}
   - component: {fileID: 23104848348981342}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Slide
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -552,6 +552,10 @@ PrefabInstance:
     - target: {fileID: 7821361754216722398, guid: 5bb689132156f024797c349daa378f3d, type: 3}
       propertyPath: m_Name
       value: Muzzle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7821361754216722398, guid: 5bb689132156f024797c349daa378f3d, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

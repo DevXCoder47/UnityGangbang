@@ -488,9 +488,11 @@ GameObject:
   - component: {fileID: 4207293392497186}
   - component: {fileID: 136877096903737240}
   - component: {fileID: 54063890643546284}
+  - component: {fileID: 4987618779191905894}
   - component: {fileID: 114963311885979670}
   - component: {fileID: 114497868231759342}
   - component: {fileID: 114762042097486276}
+  - component: {fileID: 5062671461254771973}
   m_Layer: 0
   m_Name: First Person Controller
   m_TagString: Player
@@ -567,6 +569,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 1
+--- !u!208 &4987618779191905894
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1773623360729482}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!114 &114963311885979670
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -615,6 +633,20 @@ MonoBehaviour:
   headToLower: {fileID: 4490257326247362}
   crouchYHeadPosition: 1
   colliderToLower: {fileID: 136877096903737240}
+--- !u!114 &5062671461254771973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1773623360729482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14b316cf84462b84a980a27338dafa49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Miscellaneous.PlayerActionManager
+  _weaponPosition: {fileID: 0}
+  _weaponDropPosition: {fileID: 0}
 --- !u!1 &1963958859065967600
 GameObject:
   m_ObjectHideFlags: 0

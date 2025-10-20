@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 23559475949960412}
   - component: {fileID: -8016510436693601246}
   - component: {fileID: 3493469643302412203}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Flash
   m_TagString: Weapon
   m_Icon: {fileID: 0}
@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 4166790287867392}
   - component: {fileID: 33557864609465042}
   - component: {fileID: 23574695343780846}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pin
   m_TagString: Untagged
   m_Icon: {fileID: 0}

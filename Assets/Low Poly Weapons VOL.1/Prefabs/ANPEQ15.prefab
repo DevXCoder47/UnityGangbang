@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 23743945575464736}
   - component: {fileID: 317088667872234241}
   - component: {fileID: 2763545487477461398}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ANPEQ15
   m_TagString: Weapon
   m_Icon: {fileID: 0}

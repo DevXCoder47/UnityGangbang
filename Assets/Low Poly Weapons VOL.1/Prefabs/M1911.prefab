@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4994603078994462}
   - component: {fileID: 33021587213863086}
   - component: {fileID: 23697610053470764}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Hammer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98,7 +98,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4314784194266678}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: CINEMA_4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 4414921361581812}
   - component: {fileID: 33504219924516634}
   - component: {fileID: 23749735145796272}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -221,7 +221,7 @@ GameObject:
   - component: {fileID: 6614802134815980205}
   - component: {fileID: -6454999964535364662}
   - component: {fileID: 5915918748237033507}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: M1911
   m_TagString: Weapon
   m_Icon: {fileID: 0}
@@ -304,7 +304,7 @@ GameObject:
   - component: {fileID: 4827498857130004}
   - component: {fileID: 33340791094248084}
   - component: {fileID: 23769447271555568}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: M1911
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -398,7 +398,7 @@ GameObject:
   - component: {fileID: 4940302572560388}
   - component: {fileID: 33682271734350378}
   - component: {fileID: 23508060292273042}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Slide
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -487,7 +487,7 @@ GameObject:
   - component: {fileID: 4387031449159434}
   - component: {fileID: 33331485787548414}
   - component: {fileID: 23719986941454460}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Magazin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -576,6 +576,10 @@ PrefabInstance:
     - target: {fileID: 2074840950630746707, guid: f7e6ed15a72c0444e86325d8347688b6, type: 3}
       propertyPath: m_Name
       value: Muzzle
+      objectReference: {fileID: 0}
+    - target: {fileID: 2074840950630746707, guid: f7e6ed15a72c0444e86325d8347688b6, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7402977325469721670, guid: f7e6ed15a72c0444e86325d8347688b6, type: 3}
       propertyPath: m_LocalPosition.x
